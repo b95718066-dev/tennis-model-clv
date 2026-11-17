@@ -12,7 +12,7 @@ Both metrics require complete markets with the same outcome keys and comparable 
 ## Example
 
 ```python
-from experiments.model_03_clv_lab.clv import calculate_clv
+from clv import calculate_clv
 
 result = calculate_clv(
     entry_odds={"player_1": 2.10, "player_2": 1.80},
